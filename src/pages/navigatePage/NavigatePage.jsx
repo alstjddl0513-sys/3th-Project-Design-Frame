@@ -10,7 +10,8 @@ export default function NavigatePage() {
     { name: 'Send', path: '/send', desc: '초대장 보내기' },
     { name: 'Share', path: '/share', desc: '초대장 보내기 완료 및 링크 공유' },
     { name: 'Landing', path: '/landing', desc: '랜딩페이지' },
-        { name: 'Landing', path: '/landing2', desc: '랜딩페이지' },
+    { name: 'Landing2', path: '/landing2', desc: '랜딩페이지2' },
+    { name: 'Login', path: '/login', desc: '랜딩페이지' },
   ];
 
   return (

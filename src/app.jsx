@@ -9,6 +9,7 @@ import SendEditPage from './pages/send/SendPage';
 import SharePage from './pages/share/SharePage';
 import LandingPage from './pages/landingPage/LandingPage';
 import LandingPage2 from './pages/landingPage2/LandingPage2';
+import LoginPage from './pages/loginPage/LoginPage';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         <Route path="/send" element={<SendEditPage />} />
         <Route path="/share" element={<SharePage />} />
         <Route path="/landing" element={<LandingPage />} />
-                <Route path="/landing2" element={<LandingPage2 />} />
+        <Route path="/landing2" element={<LandingPage2 />} />
+        <Route path="/login" element={<LoginPage />} />
         {/* <Route path="/list" element={<EventList />} /> */}
       </Routes>
     </Router>
