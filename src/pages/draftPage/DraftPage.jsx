@@ -59,11 +59,11 @@ export default function DraftPage() {
               </button>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <button className="flex flex-col items-center justify-center gap-2 py-8 rounded-[1.5rem] bg-black/[0.03] border-2 border-dashed border-black/5 hover:bg-black/[0.05] transition-all">
+              <button className="flex flex-col items-center justify-center gap-2 py-8 rounded-3xl bg-black/3 border-2 border-dashed border-black/5 hover:bg-black/5 transition-all">
                 <span className="text-xl">📷</span>
                 <span className="text-sm font-bold opacity-60">Camera</span>
               </button>
-              <button className="flex flex-col items-center justify-center gap-2 py-8 rounded-[1.5rem] bg-black/[0.03] border-2 border-dashed border-black/5 hover:bg-black/[0.05] transition-all">
+              <button className="flex flex-col items-center justify-center gap-2 py-8 rounded-3xl bg-black/3 border-2 border-dashed border-black/5 hover:bg-black/5 transition-all">
                 <span className="text-xl">🏞️</span>
                 <span className="text-sm font-bold opacity-60">Upload</span>
               </button>
@@ -73,7 +73,7 @@ export default function DraftPage() {
           {/* Activity Section */}
           <div className="space-y-6">
             <h2 className="text-xl font-bold">Activity</h2>
-            <div className="flex items-center gap-3 p-4 bg-black/[0.03] rounded-2xl border border-black/5">
+            <div className="flex items-center gap-3 p-4 bg-black/3 rounded-2xl border border-black/5">
               <div className="w-8 h-8 rounded-full bg-linear-to-tr from-blue-400 to-purple-400 flex items-center justify-center text-[10px] text-white font-bold">
                 김
               </div>
