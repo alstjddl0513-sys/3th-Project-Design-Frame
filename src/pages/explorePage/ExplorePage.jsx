@@ -43,7 +43,7 @@ function Hero() {
         alt="Hero background"
       />
       {/* 그라데이션을 검은색에서 흰색(to-white)으로 변경 */}
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/20 to-white" />
+      <div className="absolute inset-0 bg-linear-to-b from-transparent via-white/20 to-white" />
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-black text-center px-4">
         <h1 className="text-5xl font-black italic tracking-tighter">explore</h1>
@@ -122,7 +122,7 @@ function FeaturedSection() {
         {cities.map((city, i) => (
           <div
             key={i}
-            className="flex items-center gap-4 p-3 rounded-xl hover:bg-black/[0.03] cursor-pointer transition-colors group"
+            className="flex items-center gap-4 p-3 rounded-xl hover:bg-black/3 cursor-pointer transition-colors group"
           >
             <div className="w-14 h-14 bg-black/5 rounded-xl overflow-hidden" />
             <span className="text-black/70 group-hover:text-black font-black text-sm transition-colors">

@@ -21,7 +21,7 @@ export default function InvitePage() {
           <button className="bg-black/5 px-5 py-2 rounded-full text-xs font-black hover:bg-black/10 transition-all">
             Home
           </button>
-          <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-pink-300 to-yellow-200 border border-black/5 cursor-pointer" />
+          <div className="w-9 h-9 rounded-full bg-linear-to-tr from-pink-300 to-yellow-200 border border-black/5 cursor-pointer" />
         </div>
       </nav>
 
@@ -73,7 +73,7 @@ export default function InvitePage() {
                 <span className="text-2xl">📍</span>
                 <span>Seoul</span>
               </div>
-              <div className="p-5 rounded-2xl bg-black/[0.03] border border-black/5 text-sm font-medium italic text-black/60">
+              <div className="p-5 rounded-2xl bg-black/3 border border-black/5 text-sm font-medium italic text-black/60">
                 "고급 프로젝트 파이팅~"
               </div>
             </div>

@@ -10,7 +10,7 @@ export default function EventEditor() {
 
   // 사진의 폼 항목 스타일을 재현한 컴포넌트
   const FormRow = ({ icon, label, right }) => (
-    <div className="flex items-center justify-between py-5 px-2 hover:bg-black/[0.02] cursor-pointer transition-colors group">
+    <div className="flex items-center justify-between py-5 px-2 hover:bg-black/2 cursor-pointer transition-colors group">
       <div className="flex items-center gap-4">
         {/* 아이콘: 더 작고 차분한 색상 */}
         <span className="text-xl grayscale opacity-60 group-hover:opacity-100 transition-opacity">
@@ -112,7 +112,7 @@ export default function EventEditor() {
             </div>
 
             {/* Footer Section */}
-            <div className="p-8 bg-black/[0.015] flex justify-center items-center gap-3 border-t border-black/5 rounded-b-[2.5rem]">
+            <div className="p-8 bg-black/1.5 flex justify-center items-center gap-3 border-t border-black/5 rounded-b-[2.5rem]">
               <span className="text-black/30 font-bold text-sm">
                 More to say?
               </span>
@@ -158,7 +158,7 @@ export default function EventEditor() {
                     className={`w-24 h-24 rounded-full flex items-center justify-center text-3xl transition-all
                       ${
                         rsvp === item.id
-                          ? 'bg-gradient-to-br from-white to-[#EEE] shadow-inner scale-95 ring-4 ring-white'
+                          ? 'bg-linear-to-br from-white to-[#EEE] shadow-inner scale-95 ring-4 ring-white'
                           : 'bg-white shadow-[0_8px_20px_-4px_rgba(0,0,0,0.08)] hover:shadow-xl hover:-translate-y-1'
                       }`}
                   >

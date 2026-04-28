@@ -5,7 +5,7 @@ export default function SendEditPage() {
   return (
     <div className="min-h-screen w-full relative overflow-hidden bg-[#e2e8f0]">
       {/* 배경 효과 */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-tr from-blue-100 via-purple-100 to-pink-100 opacity-80" />
+      <div className="absolute inset-0 z-0 bg-linear-to-tr from-blue-100 via-purple-100 to-pink-100 opacity-80" />
 
       {/* 비눗방울 효과 */}
       {[...Array(8)].map((_, i) => (

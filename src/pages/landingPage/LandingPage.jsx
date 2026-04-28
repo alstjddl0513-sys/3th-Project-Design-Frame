@@ -1,18 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import landingBg from '../../assets/landingPage.jpg';
 
 export default function LandingPage() {
   return (
     <div className="min-h-screen w-full relative bg-black overflow-hidden font-sans">
-      {/* 1. BACKGROUND IMAGE (이미지 경로 수정됨) */}
       <div className="absolute inset-0 z-0">
         <img
-          src={landingBg}
+          src="/assets/landingPage.jpg"
           className="w-full h-full object-cover grayscale-[0.2] opacity-80"
         />
-        {/* 이미지의 독특한 아래에서 위로 보는 투시와 화려한 조명을 위한 오버레이 */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/60" />
+
+        <div className="absolute inset-0 bg-linear-to-b from-black/50 via-transparent to-black/60" />
         <div className="absolute top-0 left-0 w-full h-full bg-blend-overlay opacity-20" />
       </div>
 
@@ -25,7 +23,7 @@ export default function LandingPage() {
         {/* 3. CALL TO ACTION BUTTON (추가된 버튼) */}
         <div className="mt-16 relative">
           {/* 버튼 뒤 은은한 야경과 어우러지는 글로우 효과 */}
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-pink-400 to-blue-500 rounded-full blur-3xl opacity-30 animate-pulse" />
+          <div className="absolute inset-0 bg-linear-to-r from-purple-500 via-pink-400 to-blue-500 rounded-full blur-3xl opacity-30 animate-pulse" />
 
           <Link
             to="/create"

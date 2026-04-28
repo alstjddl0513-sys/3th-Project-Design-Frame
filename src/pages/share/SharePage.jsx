@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 
 export default function SharePage() {
   return (
-    <div className="min-h-screen w-full relative overflow-hidden bg-gradient-to-br from-blue-50 to-pink-50">
+    <div className="min-h-screen w-full relative overflow-hidden bg-linear-to-br from-blue-50 to-pink-50">
       {/* Background Bubbles (Same as above) */}
       <div className="absolute inset-0 pointer-events-none">
         {[...Array(6)].map((_, i) => (

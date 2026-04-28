@@ -31,7 +31,7 @@ export default function Navbar() {
           ))}
 
           {/* User Profile Avatar */}
-          <div className="w-9 h-9 flex items-center justify-center rounded-full bg-gradient-to-tr from-[#ff9a9e] to-[#fad0c4] text-white text-xs font-bold shadow-sm border border-white/50 cursor-pointer hover:scale-105 transition-transform ml-1">
+          <div className="w-9 h-9 flex items-center justify-center rounded-full bg-linear-to-tr from-[#ff9a9e] to-[#fad0c4] text-white text-xs font-bold shadow-sm border border-white/50 cursor-pointer hover:scale-105 transition-transform ml-1">
             My
           </div>
         </div>

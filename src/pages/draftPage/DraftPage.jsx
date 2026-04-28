@@ -40,7 +40,7 @@ export default function DraftPage() {
               <span>👑</span> Hosted by
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-blue-400 to-purple-400 border-2 border-white shadow-sm flex items-center justify-center text-white text-xs">
+              <div className="w-10 h-10 rounded-full bg-linear-to-tr from-blue-400 to-purple-400 border-2 border-white shadow-sm flex items-center justify-center text-white text-xs">
                 김
               </div>
               <span className="font-bold">김민성</span>
@@ -74,7 +74,7 @@ export default function DraftPage() {
           <div className="space-y-6">
             <h2 className="text-xl font-bold">Activity</h2>
             <div className="flex items-center gap-3 p-4 bg-black/[0.03] rounded-2xl border border-black/5">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-400 to-purple-400 flex items-center justify-center text-[10px] text-white font-bold">
+              <div className="w-8 h-8 rounded-full bg-linear-to-tr from-blue-400 to-purple-400 flex items-center justify-center text-[10px] text-white font-bold">
                 김
               </div>
               <input
@@ -135,7 +135,7 @@ export default function DraftPage() {
                 >
                   {/* 사진 속의 은은한 그라데이션 배경 효과 */}
                   <div
-                    className={`absolute inset-0 rounded-full bg-gradient-to-br ${item.color} opacity-40`}
+                    className={`absolute inset-0 rounded-full bg-linear-to-br ${item.color} opacity-40`}
                   />
                   <span className="relative z-10 font-light opacity-80">
                     {item.icon}

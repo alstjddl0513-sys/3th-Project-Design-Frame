@@ -44,7 +44,7 @@ export default function Home() {
             ))}
 
             {/* User Profile Avatar */}
-            <div className="w-9 h-9 flex items-center justify-center rounded-full bg-gradient-to-tr from-[#ff9a9e] to-[#fad0c4] text-white text-xs font-bold shadow-sm border border-white/50 cursor-pointer hover:scale-105 transition-transform ml-1">
+            <div className="w-9 h-9 flex items-center justify-center rounded-full bg-linear-to-tr from-[#ff9a9e] to-[#fad0c4] text-white text-xs font-bold shadow-sm border border-white/50 cursor-pointer hover:scale-105 transition-transform ml-1">
               My
             </div>
           </div>
@@ -90,13 +90,13 @@ export default function Home() {
           {/* LEFT SIDE */}
           <div className="space-y-12">
             <div className="space-y-4">
-              <div className="relative group w-48 aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border border-black/5 cursor-pointer bg-black/5">
+              <div className="relative group w-48 aspect-3/4 rounded-2xl overflow-hidden shadow-2xl border border-black/5 cursor-pointer bg-black/5">
                 <img
                   src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   alt="Event cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-4">
+                <div className="absolute inset-0 bg-lineear-to-t from-black/70 to-transparent flex flex-col justify-end p-4">
                   <p className="text-xs font-black truncate text-white">
                     고급 프로젝트 - Wara
                   </p>
@@ -109,7 +109,7 @@ export default function Home() {
               <h3 className="text-sm font-black text-black/30 uppercase tracking-widest">
                 Your Cards
               </h3>
-              <div className="w-48 p-6 rounded-2xl bg-black/[0.03] border border-black/5 flex flex-col items-center text-center gap-4 hover:bg-black/[0.05] transition-colors">
+              <div className="w-48 p-6 rounded-2xl bg-black/3 border border-black/5 flex flex-col items-center text-center gap-4 hover:bg-black/5 transition-colors">
                 <div className="text-3xl grayscale-[0.2]">🎴</div>
                 <div>
                   <p className="text-xs font-black text-black/80">
