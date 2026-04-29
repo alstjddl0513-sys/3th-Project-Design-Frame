@@ -12,6 +12,7 @@ export default function NavigatePage() {
     { name: 'Landing', path: '/landing', desc: '랜딩페이지' },
     { name: 'Landing2', path: '/landing2', desc: '랜딩페이지2' },
     { name: 'Login', path: '/login', desc: '랜딩페이지' },
+        { name: 'Landing2', path: '/landing3', desc: '랜딩페이지3' },
   ];
 
   return (

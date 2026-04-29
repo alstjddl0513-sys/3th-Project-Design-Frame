@@ -10,6 +10,7 @@ import SharePage from './pages/share/SharePage';
 import LandingPage from './pages/landingPage/LandingPage';
 import LandingPage2 from './pages/landingPage2/LandingPage2';
 import LoginPage from './pages/loginPage/LoginPage';
+import LandingPage3 from './pages/landingPage3/LandingPage3';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/share" element={<SharePage />} />
         <Route path="/landing" element={<LandingPage />} />
         <Route path="/landing2" element={<LandingPage2 />} />
+        <Route path="/landing3" element={<LandingPage3 />} />
         <Route path="/login" element={<LoginPage />} />
         {/* <Route path="/list" element={<EventList />} /> */}
       </Routes>
